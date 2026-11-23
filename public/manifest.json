@@ -1,0 +1,43 @@
+{
+  "id": "/",
+  "name": "FitPilot - Daily Fitness Trainer",
+  "short_name": "FitPilot",
+  "description": "Calm, human-feeling daily fitness trainer and interval workout companion for Windows desktop and Android.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "categories": ["health", "fitness", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Daily Workout",
+      "short_name": "Workout",
+      "description": "Start today's foundation routine",
+      "url": "/?tab=timer",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Exercise Library",
+      "short_name": "Exercises",
+      "description": "Browse workout routines and form cues",
+      "url": "/?tab=training",
+      "icons": [{ "src": "/icon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

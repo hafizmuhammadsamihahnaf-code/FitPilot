@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif !important;
+}
+
+body {
+  background-color: #070d1e;
+  color: #e2edfd;
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif !important;
+  letter-spacing: 0.01em;
+}
+
+/* Universal Comic Sans font class */
+.font-comic,
+.font-mono,
+.font-bangla {
+  font-family: 'Comic Neue', 'Comic Sans MS', cursive, sans-serif !important;
+  letter-spacing: 0.01em;
+}
+
+/* Unified Dark Blue Frosted Glass Aesthetics */
+.ios-glass {
+  background: rgba(10, 17, 36, 0.78);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(96, 165, 250, 0.18);
+  box-shadow: 0 10px 30px -10px rgba(2, 6, 23, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.ios-glass-card {
+  background: rgba(13, 23, 48, 0.72);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(96, 165, 250, 0.15);
+  box-shadow: 0 8px 24px -6px rgba(2, 6, 23, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ios-glass-card:hover {
+  background: rgba(17, 30, 62, 0.85);
+  border-color: rgba(96, 165, 250, 0.35);
+  box-shadow: 0 14px 34px -6px rgba(10, 25, 60, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  transform: translateY(-2px);
+}
+
+.ios-glass-pill {
+  background: rgba(59, 130, 246, 0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(147, 197, 253, 0.25);
+  box-shadow: 0 2px 10px rgba(37, 99, 235, 0.15);
+}
+
+.ios-glass-interactive {
+  background: rgba(18, 32, 64, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(96, 165, 250, 0.2);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ios-glass-interactive:hover {
+  background: rgba(29, 53, 102, 0.75);
+  border-color: rgba(147, 197, 253, 0.4);
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.25);
+}
+
+.ios-blue-glow {
+  box-shadow: 0 0 35px -5px rgba(59, 130, 246, 0.35);
+}
+
+/* Custom smooth dark-blue scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(6, 11, 24, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(96, 165, 250, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(96, 165, 250, 0.45);
+}
+
